@@ -51,6 +51,8 @@ public class OpenAISampleTests {
     /**
      * The following tests are Open AI samples ported directly, with assertions added to ensure
      * that they will fail instrumented tests rather than simply logging errors and passing tests.
+     * Currently it still contains log statements in order to help verify that the samples are working, and the
+     * transcription and translation samples at the bottom will probably need to have their file paths changed.
      */
     private final String azureOpenaiKey = "{azure-open-ai-key}";
     private final String endpoint = "{azure-open-ai-endpoint}";
